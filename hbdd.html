@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="input"></h2>
+    <script>
+        let input = prompt ("Tulis Nama Anda :");
+        document.getElementById("input").innerHTML = "Selamat Datang, " + input + "!";
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninda CN</title>
+</head>
+<body style="background-color: pink;">
+
+    <h2>Hello! Thank you for taking the time to visit this website!</h2>
+
+    <video controls autoplay muted loop width="600px">
+        <source src="snaptik_7456377809766796576_v2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Hallo hari ini Ninda Cahya Noprianingrum <br>
+    Bertambah usia ke 18 tahun LOCHHHHHHH...... <br>
+    info ga penting siehh bejir wkwkwkwkw <br>
+    tapi tencuu udah buka web nya cuyyyyy</h2>
+
+
+UCAPAN :
+    <textarea name="ucapan" id="ucapan" cols="30" rows="10" placeholder="Tulis Ucapanmu disini" style="background-color: bisque; text-align: center;"></textarea> <br> <br>
+
+
+<input type="button" value="Kirim" style="background-color:lightpink;" onclick="showThanksMessage()">
+<input type="reset" style="background-color:lightpink;">
+
+<script>
+function showThanksMessage() {
+  const ucapan = document.getElementById("ucapan").value.trim();
+
+  if (ucapan === "") {
+    alert("Tolong isi ucapannya dulu yaa 😊");
+  } else {
+    alert("Terima kasih atas ucapannya! 🎁 Kamu dapat free gift!\n\n📸 SS halaman ini dan kirim ke WA yaww 🤗🤩");
+  }
+}
+</script>
